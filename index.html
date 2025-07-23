@@ -20,19 +20,27 @@
   </head>
   <body class="inter-normal">
     <header>
-      <nav class="container">
+      <nav class="container flex justify-between align-content-center">
         <div class="logo">
-          <img src="assets/logo.png" alt="" />
+          <img src="assets/logo.png" alt="" class="" />
+        </div>
+        <div class="flex gap-10 items-center">
+          <ul class="nav-links hidden sm:flex gap-10">
+            <li class=""><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+          <div class="flex items-center space-x-2">
+            <img src="assets/shopping-cart.png" alt="" />
+            <span>Cart($56)</span>
+          </div>
         </div>
       </nav>
     </header>
-    <main>
-      <section class="banner-section">
-        <h1 class="text-clifford">Hello, Welcome to Flower Market</h1>
-      </section>
+    <main class="container">
+      <section class="banner-section"></section>
       <section class="plant-section"></section>
       <section class="plant-lover-section"></section>
-
       <section class="deal-section"></section>
     </main>
     <section class="join-section"></section>
