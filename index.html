@@ -18,9 +18,11 @@
 
     <title>Flower Market</title>
   </head>
-  <body class="inter-normal">
+  <body class="font-[Inter]">
     <header>
-      <nav class="container flex justify-between align-content-center py-3">
+      <nav
+        class="max-w-[1140px] mx-auto flex justify-between align-content-center py-3"
+      >
         <div class="logo">
           <img
             src="assets/logo.png"
@@ -45,17 +47,27 @@
         </div>
       </nav>
     </header>
-    <main class="container">
-      <section class="banner-section">
-        <div class="banner-text">
-          <h3>Always <span>Fresh FLowers</span></h3>
-          <p>
+    <main class="sm:max-w-[1140px] mx-auto max-w-full">
+      <section
+        class="banner-section mt-7 sm:mt-20 flex flex-col-reverse sm:flex-row items-start sm:items-end justify-between gap-6"
+      >
+        <div class="banner-text max-w-xl">
+          <h3
+            class="text-[24px] sm:text-6xl font-bold mb-4 uppercase font-[Noto_Serif]"
+          >
+            Always
+            <span class="text-[#E95A08]"
+              >Fresh <br />
+              Flowers</span
+            >
+          </h3>
+          <p class="text-[#8987A1] text-sm sm:text-base">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
           </p>
         </div>
-        <img src="assets/hero-flower.png" alt="Banner Flower" />
+        <img src="assets/hero-flower.png" alt="Banner Flower" class="w-full" />
       </section>
       <section class="plant-section">
         <h3><span>Our</span> Plants</h3>
