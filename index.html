@@ -10,7 +10,6 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
 
     <title>Flower Market</title>
   </head>
@@ -216,9 +215,7 @@
           </p>
         </div>
         <div class="deal-cards flex flex-col sm:flex-row gap-5">
-          <!-- Left Side -->
           <div class="w-full sm:w-1/3 flex flex-col gap-3">
-            <!-- Image 1 -->
             <div class="relative">
               <img
                 src="assets/deal-bloom.png"
@@ -238,7 +235,6 @@
               </div>
             </div>
 
-            <!-- Image 2 -->
             <div class="relative">
               <img
                 src="assets/deal-ana.png"
@@ -259,7 +255,6 @@
             </div>
           </div>
 
-          <!-- Right Side -->
           <div class="w-full sm:w-2/3 relative">
             <img
               src="assets/deal-zabo.png"
@@ -286,45 +281,74 @@
       </section>
     </main>
 
-    <!-- <section
-      class="join-section bg-[url(assets/news-letter-bg.png)] bg-no-repeat bg-cover h-100 w-full"
+    <section
+      class="join-section bg-[url(assets/news-letter-bg.png)] bg-no-repeat bg-cover h-60 sm:h-120 w-full mt-15 sm:mt-30"
     >
-      <h4>Join the colorful Bunch</h4>
-      <form action="">
-        <input type="email" placeholder="Write email" />
-        <button>Subscribe</button>
-      </form>
-    </section> -->
-    <!-- <footer class="footer-section container flex gap-50">
-      <div class="logo-text">
-        <img src="assets/logo.png" alt="Logo" />
-        <p>
+      <div
+        class="flex flex-col items-center justify-center h-full text-white text-center gap-3"
+      >
+        <h4
+          class="text-center text-[20px] sm:text-5xl font-bold mb-4 font-[Noto_Serif]"
+        >
+          Join the colorful Bunch
+        </h4>
+        <form action="" class="flex flex-row items-center justify-center gap-0">
+          <input
+            type="email"
+            placeholder="Write email"
+            class="w-full sm:w-[644px] bg-white py-4 px-4 text-black"
+          />
+          <button class="w-full sm:w-[180px] py-4 bg-[#E95A08] text-white">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer
+      class="footer-section mx-auto sm:max-w-[1140px] flex flex-col sm:flex-row gap-10 h-auto py-10 px-3"
+    >
+      <!-- First Column -->
+      <div class="logo-text flex flex-col items-start gap-4 w-full sm:w-1/4">
+        <img src="assets/logo.png" alt="Logo" class="w-50 sm:w-32" />
+        <p class="text-[#8987A1] text-xl sm:text-base font-normal">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop.
         </p>
       </div>
-      <div class="nav-link flex gap-40">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-        <ul>
-          <li><a href="">Features</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href="">Help Center</a></li>
+
+      <!-- Second Column -->
+      <div
+        class="nav-link-1 text-[#8987A1] flex flex-col gap-2 w-full sm:w-1/4"
+      >
+        <ul class="flex flex-col gap-2">
+          <li><a href="" class="mb-8">Home</a></li>
+          <li><a href="" class="mb-8">About Us</a></li>
+          <li><a href="" class="mb-8">Blog</a></li>
+          <li><a href="" class="mb-8">FAQ</a></li>
+          <li><a href="" class="mb-8">Contact Us</a></li>
         </ul>
       </div>
-      <div class="social-links flex gap-4">
+
+      <!-- Third Column -->
+      <div
+        class="nav-link-2 text-[#8987A1] flex flex-col gap-2 w-full sm:w-1/4"
+      >
+        <ul class="flex flex-col gap-2">
+          <li><a href="" class="mb-8">Features</a></li>
+          <li><a href="" class="mb-8">Pricing</a></li>
+          <li><a href="" class="mb-8">Privacy Policy</a></li>
+          <li><a href="" class="mb-8">Terms of Service</a></li>
+          <li><a href="" class="mb-8">Help Center</a></li>
+        </ul>
+      </div>
+
+      <!-- Fourth Column -->
+      <div class="social-links flex flex-row gap-4 items-start">
         <img src="assets/icon-linkedin.png" alt="LinkedIn" class="h-7 w-7" />
         <img src="assets/icon-twitter.png" alt="X" class="h-7 w-7" />
         <img src="assets/icon-facebook.png" alt="Facebook" class="h-7 w-7" />
         <img src="assets/icon-youtube.png" alt="Youtube" class="h-7 w-7" />
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
